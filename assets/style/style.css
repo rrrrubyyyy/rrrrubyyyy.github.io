@@ -44,7 +44,6 @@ nav{
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/background_intro.JPG");
     background-size: cover;
     background-position: center;
-    height: 100vh;
 }
 
 /* Intro */
@@ -64,7 +63,7 @@ nav{
 
 /* About section */
 .about img{
-    width: 50vh;
+    width: 30vw;
 }
 .about p{
     width: 80%;
@@ -76,6 +75,9 @@ nav{
     transition: .5s ease;
 }
 @media screen and (max-width: 1000px) {
+    .about img{
+        width: 50vw;
+    }
     .about p{
         margin: 20px 0;
         padding: 0;
@@ -84,7 +86,7 @@ nav{
   }
 /* Hobbies */
 .hobbies img{
-    width: 50vh;
+    width: 30vw;
 }
 .hobbies h3{
     text-align: center;
@@ -94,9 +96,13 @@ nav{
     text-align: justify;
 }
 @media screen and (max-width: 1000px) {
+    .hobbies img{
+        width: 50vw;
+    }
     .hobbies p{
         padding: 0;
         width: 100%;
+        text-align: center;
     }
   }
 
@@ -187,6 +193,13 @@ nav{
     width: 90%;
     text-align: justify;
 }
+.contact input{
+    width: 30vw;
+}
+.contact textarea{
+    width: 30vw;
+    height: 20vh;
+}
 
 .contact a:link {
     text-decoration: none;
@@ -210,6 +223,13 @@ nav{
         margin: 0;
         padding: 0;
         width: 100%;
+    }
+    .contact input{
+        width: 70vw;
+    }
+    .contact textarea{
+        width: 70vw;
+        height: 20vh;
     }
 }
 
