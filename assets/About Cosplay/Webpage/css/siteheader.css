@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+	.site-header1{text-align: center; padding-top: 65px; border-radius: 3px 3px 0 0;}
+	.logo1{
+	display: inline-block;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+	.logo1 h1{
+	font-size: 50px;
+	line-height: 52px;
+	color: darkturquoise;
+	text-transform: uppercase;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+	letter-spacing: 7px;
+}
+	.logo1 h2{
+	font-size: 31.5px;
+	line-height: 35px;
+	color: #9d9d9d;
+	padding-bottom: 30px;
+	font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+}
+	.menu{padding-top: 40px; padding-bottom: 45px; text-align: center;}
+	.menu .navbar{display: inline-block;  font-family: 'source_sans_prolight'; margin-bottom: 0;}
+    .menu .navbar .nav > .active > a {color: darkturquoise; background: none; background-image: none;}
+    .menu .navbar .nav > .active > a:hover{background: none; background-image: none; box-shadow: none;}
+    .menu .navbar .nav > li > a {color: #716a72; font-size: 16px; text-transform: uppercase; padding-right: 75px; 
+                                text-shadow: none; box-shadow: none; letter-spacing: 3px;}
+    .menu .navbar .nav > li > a:hover{color: darkturquoise;}
+
+  .mini-menu{display: none;margin: 0 10px;}
+    .mini-menu .selectnav{ display: none; width: 100%;background: #716a72;font-weight: 600;padding: 10px;height: 42px; color: #fff; border-radius: 5px; cursor: pointer; outline: 0; border:none !important;}
+    .selectnav select{appearance: none; border:none !important;}
+    .mini-menu label {position:relative; width: 100%;}
+    .mini-menu label:after {
+    content:'<>';
+    font:11px "Consolas", monospace;
+    color:#fff;
+    -webkit-transform:rotate(90deg);
+    -moz-transform:rotate(90deg);
+    -ms-transform:rotate(90deg);
+    transform:rotate(90deg);
+    right:14px; top:14px;
+    padding:0 0 2px;
+
+    position:absolute;
+    pointer-events:none;
+    }
+    .mini-menu label:before {
+    content:'';
+    right:6px; top:10px;
+    width: 25px; height: 25px;
+    background:#716a72;
+    position:absolute;
+    pointer-events:none;
+    display:block;
+    }
+
+.copy-rights1{color: #716a72; background-color:transparent; padding:7px 0;border-radius: 0 0 3px 3px; text-align: center; font-family: 'source_sans_problack';}
+.copy-rights1 a{color: #716a72;}
+.copy-rights1 a:hover{ text-decoration: none; color: darkturquoise;}
+.copy-rights1 strong{color: darkturquoise;}
+.copy-rights1 strong a{color: darkturquoise;}
+.copy-rights1 strong a:hover{text-decoration: none; color: #716a72;}

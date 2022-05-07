@@ -1,0 +1,66 @@
+section p {
+	line-height: 1.6em;
+}
+.post-image img {
+	display: block;
+	margin: 0;
+	opacity: 1;
+	transition: opacity 0.20s linear 0s;
+	-o-transition: opacity 0.20s linear 0s;
+	-ms-transition: opacity 0.20s linear 0s;
+	-moz-transition: opacity 0.20s linear 0s;
+	-webkit-transition: opacity 0.20s linear 0s;
+}
+#home-section .post-image img:hover, #article-section.archive .post-image img:hover {
+	opacity: 0.5;
+}
+#home-section .post-text {
+	color: #fff;
+	padding: 2.25em;
+}
+#home-section .post-text h2 {
+	color: #fff;
+	font-size: 3.2em;
+	font-weight: 100;
+	line-height: 1em;
+	margin: 0 0 0.3125em 0;
+  opacity:1;
+	padding: 0;
+  transition: opacity 0.20s linear 0s;
+	-o-transition: opacity 0.20s linear 0s;
+	-ms-transition: opacity 0.20s linear 0s;
+	-moz-transition: opacity 0.20s linear 0s;
+	-webkit-transition: opacity 0.20s linear 0s;
+}
+#home-section .post-text h2:hover {
+	opacity: 0.6;
+	font-family: inherit;
+}
+#home-section .post-text p {
+	font-size: 0.9em;
+	opacity: 0.6;
+}
+
+
+.right-align .post-image {
+	float: right;
+}
+.right-align .post-text {
+	float: right;
+	text-align: right;
+}
+.right-align .post-date {
+	float: right;
+	text-align: right;
+}
+.post-1 {
+	background: none repeat scroll 0 0 darkturquoise;
+}
+.post-2 {
+	background: none repeat scroll 0 0 paleturquoise;
+}
+.post-3 {
+	background: none repeat scroll 0 0 darkturquoise;
+}
+.post-4 {
+	background: none repeat scroll 0 0 paleturquoise;

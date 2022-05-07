@@ -1,0 +1,236 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+h1, .btn{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+h2, h3, h4, h5, h6, p, label{
+    font-family: "Gill Sans", sans-serif;
+}
+.btn{
+    font-size: 14px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 15px 20px;
+}
+
+/* Nav bar */
+nav{
+    text-transform: uppercase;
+    background-color: transparent !important; 
+    transition:0.75s ease; 
+}
+#logo{
+    width: 30px;
+}
+.btn-light:hover{
+    background-color: #eee;
+    transition: .5s ease;
+}
+.btn-outline-light:hover{
+    transition: .5s ease;
+}
+
+
+/* Intro background */
+.bg-image{
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/background_intro.JPG");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+/* Intro */
+.intro h1{
+    font-size: 7vw;
+    text-align: center;
+    font-weight: 700;
+}
+.intro p{
+    font-size: 20px;
+    text-align: center;
+    width: 70%;
+}
+.intro a:hover {
+    transition: 1s ease;
+}
+
+/* About section */
+.about img{
+    width: 50vh;
+}
+.about p{
+    width: 80%;
+    margin: 20px;
+    text-align: justify;
+}
+.about a:hover {
+    transform: scale(1.10);
+    transition: .5s ease;
+}
+@media screen and (max-width: 1000px) {
+    .about p{
+        margin: 20px 0;
+        padding: 0;
+        width: 100%;
+    }
+  }
+/* Hobbies */
+.hobbies img{
+    width: 50vh;
+}
+.hobbies h3{
+    text-align: center;
+}
+.hobbies p{
+    opacity: 70%;
+    text-align: justify;
+}
+@media screen and (max-width: 1000px) {
+    .hobbies p{
+        padding: 0;
+        width: 100%;
+    }
+  }
+
+/* Galleries */
+.galleries .carousel{
+    width: 90%;
+}
+
+
+.galleries img {
+  opacity: 100%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  object-fit: contain;
+}
+
+.galleries .overlay {
+    position: absolute;
+    top: 75%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 25%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}  
+
+.galleries .carousel-item:hover .overlay {
+  opacity: 80%;
+  display: flex;
+}
+.galleries h3{
+    color: #fff;
+    font-size: 2vw;
+    text-transform: uppercase;
+}
+.galleries p{
+    color: #ddd;
+    font-size: 1vw;
+}
+.galleries h5{
+    font-weight: lighter;
+}
+
+@media screen and (max-width: 1000px) {
+    .carousel-indicators{
+        display: none;
+    }
+    .galleries .overlay{
+        background-color: rgba(0, 0, 0, 0.3);
+        opacity: 100%;
+        top: 70%;    
+        height: 30%;
+    }
+    .galleries h3{
+        font-size: 3vw;
+    }
+    .galleries p{
+        font-size: 2vw;
+    }
+  }
+/* Portfolio */
+.portfolio a:hover {
+    transition: .5s ease;
+    background-color: #fff;
+    color: #000;
+}
+/* Contact */
+.comment{
+    text-transform: uppercase;
+  }
+.contact .hr{
+    width: 50px;
+    border: 2px solid #fff;
+    border-radius: 2px;
+    margin: 20px auto;
+}
+.contact .main{
+    width: 90%;
+    text-align: justify;
+}
+
+.contact a:link {
+    text-decoration: none;
+    color: lightskyblue;
+}
+  
+.contact a:visited {
+    text-decoration: none;
+    color: lightskyblue;
+}
+  
+.contact a:hover {
+    text-decoration: underline;
+}
+  
+.contact a:active {
+    text-decoration: underline;
+}
+@media screen and (max-width: 1000px) {
+    .contact .main{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+}
+
+
+ /* Footer */
+footer{
+    border-top: 1px solid rgba(256, 256, 256, 0.2);
+}
+footer img{
+    width: 25px;
+}
+footer a:link {
+    text-decoration: none;
+    color: #fff;
+}
+  
+footer a:visited {
+    text-decoration: none;
+    color: #fff;
+}
+  
+footer a:active {
+    text-decoration: underline;
+}
